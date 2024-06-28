@@ -1,0 +1,10 @@
+ID,Date,Time,Meridiem,Patient IC Number,Specialization,Type,Status,Time Slot ID
+ap2,2024-05-19,10:30,a.m.,040603141111,general,walk-in,active,ts3
+ap3,2024-05-07,11:00,a.m.,040525141111,general,walk-in,active,ts1
+ap4,2024-05-08,01:00,p.m.,040525141111,general,online,active,ts2
+ap5,2024-06-12,09:00,a.m.,040525141111,general,walk-in,active,ts4
+ap6,2024-06-13,09:00,a.m.,040525141111,general,online,active,ts8
+ap7,2024-06-13,10:00,a.m.,040603141111,general,walk-in,active,ts9
+ap8,2024-06-13,11:00,a.m.,030303141111,general,walk-in,active,ts10
+ap9,2024-07-08,10:00,a.m.,040525141111,general,online,cancelled,ts16
+ap10,2024-07-08,10:00,a.m.,040525141111,general,online,cancelled,ts16

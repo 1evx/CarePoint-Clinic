@@ -1,0 +1,8 @@
+ID,Date,Time,Meridiem,Patient IC Number,Patient Name,Appointment ID,Amount,Items,Quantities,Status
+py1,2024-06-02,06:47,p.m.,040603141111,Tong,ap2,20.00,md1,1,paid
+py2,2024-06-02,10:41,p.m.,040525141111,PoYeh,null,40.00,md2,1,paid
+py3,2024-06-03,05:26,p.m.,040603141111,Tong,null,80.00,md3,1,paid
+py4,2024-06-04,10:39,a.m.,040525141111,PoYeh,null,100.00,md3:md1,1:1,paid
+py5,2024-06-04,12:04,p.m.,040525141111,PoYeh,null,20.00,md1,1,paid
+py6,2024-06-04,04:55,p.m.,040525141111,PoYeh,ap4,120.00,md3:md2,1:1,paid
+py7,2024-06-13,02:38,p.m.,040525141111,Tan Po Yeh,ap6,100.00,md1:md3,1:1,paid

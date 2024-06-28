@@ -1,0 +1,9 @@
+Sequence ID,Connected File Name,Pattern,Next Value
+1,patient.txt,pt,6
+2,admin.txt,ad,2
+3,doctor.txt,dc,4
+4,timeSlot.txt,ts,15
+5,appointment.txt,ap,9
+6,medicalRecord.txt,mr,3
+7,medicine.txt,md,4
+8,payment.txt,py,8

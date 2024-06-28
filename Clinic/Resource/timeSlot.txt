@@ -1,0 +1,18 @@
+ID,Date,Time,Meridiem,Doctor ID,Doctor Name,Specialization,Status
+ts1,2024-06-01,09:00,a.m.,1,How,cardiology,available
+ts2,2024-06-02,11:30,a.m.,1,How,cardiology,available
+ts3,2024-06-03,02:00,p.m.,1,How,cardiology,available
+ts4,2024-06-04,04:15,p.m.,1,How,neurology,available
+ts5,2024-06-05,08:45,a.m.,2,SengKhuan,neurology,available
+ts6,2024-06-06,10:30,a.m.,2,SengKhuan,neurology,available
+ts7,2024-06-07,01:00,p.m.,2,SengKhuan,pediatrics,available
+ts8,2024-06-08,03:45,p.m.,2,SengKhuan,pediatrics,available
+ts9,2024-06-09,11:00,a.m.,2,SengKhuan,pediatrics,available
+ts10,2024-06-10,09:30,a.m.,2,SengKhuan,dermatology,available
+ts11,2025-06-11,10:00,a.m.,3,Alan,dermatology,available
+ts12,2025-06-12,01:15,p.m.,3,Alan,dermatology,available
+ts13,2025-06-13,02:30,p.m.,3,Alan,orthopedics,available
+ts14,2025-06-14,03:00,p.m.,1,How,orthopedics,available
+ts15,2025-06-15,04:45,p.m.,1,How,orthopedics,available
+ts16,2025-06-16,08:15,a.m.,1,How,dentistry,available
+ts17,2025-06-17,09:45,a.m.,1,How,dentistry,available

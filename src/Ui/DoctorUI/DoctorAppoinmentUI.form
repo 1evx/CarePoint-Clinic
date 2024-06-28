@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Ui.DoctorUI.DoctorAppoinmentUI">
+  <grid id="27dc6" binding="Main3" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="788" height="563"/>
+    </constraints>
+    <properties>
+      <font size="15" style="1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="ef24e" binding="MainPanel" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="2c684" class="javax.swing.JLabel" binding="Title">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="20" style="1"/>
+              <text value="Appointment Management"/>
+            </properties>
+          </component>
+          <toolbar id="d3af2" binding="TB1">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="20"/>
+              </grid>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="2f1ed" class="javax.swing.JToolBar$Separator" binding="TB1TBS1">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="32bff" class="javax.swing.JButton" binding="searchButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <maximumSize width="100" height="28"/>
+                  <minimumSize width="100" height="28"/>
+                  <preferredSize width="100" height="28"/>
+                  <text value="Search"/>
+                </properties>
+              </component>
+              <component id="acdd3" class="javax.swing.JToolBar$Separator" binding="TB1TBS3">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="cbd5" class="javax.swing.JButton" binding="DELETEButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <maximumSize width="100" height="28"/>
+                  <minimumSize width="100" height="28"/>
+                  <preferredSize width="100" height="28"/>
+                  <text value="Cancel"/>
+                </properties>
+              </component>
+              <component id="4e350" class="javax.swing.JToolBar$Separator" binding="TB1TBS4">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="dde84" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="e685f" class="javax.swing.JButton" binding="refreshButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <maximumSize width="100" height="28"/>
+                  <minimumSize width="100" height="28"/>
+                  <preferredSize width="100" height="28"/>
+                  <text value="Refresh"/>
+                </properties>
+              </component>
+              <component id="da7c" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </toolbar>
+          <grid id="30ea8" binding="P2" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="c326b" class="javax.swing.JLabel" binding="P2L1">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="16"/>
+                  <text value="Appointment Information"/>
+                </properties>
+              </component>
+              <scrollpane id="d93f3" binding="P2SP1">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <autoscrolls value="false"/>
+                  <verticalScrollBarPolicy value="20"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="47f20" class="javax.swing.JTable" binding="Table">
+                    <constraints/>
+                    <properties>
+                      <enabled value="true"/>
+                      <font name="Arial" size="14"/>
+                      <rowHeight value="24"/>
+                      <rowMargin value="4"/>
+                      <updateSelectionOnSort value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+          <grid id="616fb" binding="P1" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="ba4f0" class="javax.swing.JLabel" binding="dataInputTitle">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="16" style="1"/>
+                  <text value="View Appointment"/>
+                </properties>
+              </component>
+              <component id="17e8b" class="javax.swing.JSeparator" binding="P1S1">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="20"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <inheritsPopupMenu value="false"/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+              <scrollpane id="141db" binding="P1ScrollPanel">
+                <constraints>
+                  <grid row="2" column="0" row-span="2" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="4b55c" binding="dataPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="10" bottom="0" right="10"/>
+                    <constraints/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <grid id="1f350" binding="dataInputPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                      <grid id="1084e" binding="dataDescriptionPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="10">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="4" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                      <grid id="2f0b4" binding="controlPanel" layout-manager="FormLayout">
+                        <rowspec value="center:d:grow"/>
+                        <colspec value="fill:d:grow"/>
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <hspacer id="24a9f">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="96a5c">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
