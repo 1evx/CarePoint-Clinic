@@ -1,3 +1,4 @@
 ID,Date,Time,Meridiem,Description,Dose,Doctor ID,Doctor Name,Patient IC Number,Patient Name,Specialization
-mr2,2024-06-09,02:20,a.m.,medium fewer\c take more rest\ndrink more water,antibiotic for 4 days\n,dc1,How,040525141111,PoYeh,general
-mr2,2024-06-09,02:20,a.m.,medium fewer\c take more rest\ndrink more water,antibiotic for 4 days\n,dc1,How,040525141113,PoYeh,general
+mr1,2024-06-28,07:22,PM,Fever\c Sorethroat,Antibiotic for 4 days,dc1,How,040525141111,Tan Po Yeh,general
+mr2,2024-06-28,07:24,PM,Fever\c Influenza A,Antibiotic for 1 weeks,dc1,How,040603141111,Tong,general
+mr3,2024-06-28,07:25,PM,Fever\c Sore Throat,Antiobiotic for 2 weeks,dc1,How,030303141111,Mei,general

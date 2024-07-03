@@ -4,6 +4,6 @@ Sequence ID,Connected File Name,Pattern,Next Value
 3,doctor.txt,dc,4
 4,timeSlot.txt,ts,17
 5,appointment.txt,ap,11
-6,medicalRecord.txt,mr,4
+6,medicalRecord.txt,mr,5
 7,medicine.txt,md,4
 8,payment.txt,py,8
