@@ -58,9 +58,9 @@ This project demonstrates:
 - File I/O handling and basic data persistence in Python
 
 ## 👥 Team Members
-**Tan Po Yeh**
-**Liew Wei Hao**
-**Chong Jia Chuen**
+- **Tan Po Yeh**
+- **Liew Wei Hao**
+- **Chong Jia Chuen**
 
 ## 🧮 Workload Matrix
 - The workload matrix outlining the individual contributions of each member can be found in the workload-matrix.pdf file in this repository.
